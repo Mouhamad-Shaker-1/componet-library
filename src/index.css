@@ -1,0 +1,141 @@
+
+
+.contianer {
+  width: 80%;
+  margin: auto;
+}
+
+/* ======= badge ===== */
+
+body {
+  background-color: aqua;
+}
+
+.badge {
+  background-color: #F3F4F6;
+  color: #1F2937;
+
+  border: none;
+  padding: 2px 12px 2px 12px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.badge.badge-square {
+  border-radius: 4px;
+}
+
+.badge.badge-pill {
+  border-radius: 12px;
+}
+
+.badge.badge-red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.badge.badge-yellow {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.badge.badge-green {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+/* ======= badge ===== */
+
+
+/* ======== banner ========== */
+
+
+.banner-contianer {
+  background-color: #EFF6FF;
+  display: flex;
+  align-items: center;
+}
+
+
+.banner-contianer h1 {
+  color: #1E40AF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.banner-contianer p {
+  color: #1C51B9;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.banner-img {
+  align-self: flex-start;
+  height: 1rem;
+  margin: .66em;
+}
+
+/* ====== style for success banner ======== */
+
+.banner-contianer.banner-success {
+  background-color: #ECFDF5;
+}
+
+.banner-contianer h1.banner-success {
+  color: #065F46;
+}
+
+.banner-contianer p.banner-success {
+  color: #047857;
+}
+
+/* ====== style for success banner ======== */
+
+/* ====== style for error banner ======== */
+
+
+.banner-contianer.banner-error {
+  background-color: #FEF2F2;
+}
+
+.banner-contianer h1.banner-error {
+  color: #92400E;
+}
+
+.banner-contianer p.banner-error {
+  color: #B45309;
+}
+
+/* ====== style for error banner ======== */
+
+/* ====== style for warning banner ======== */
+
+
+.banner-contianer.banner-warning {
+  background-color: #FFFBEB;
+}
+
+.banner-contianer h1.banner-warning {
+  color: #92400E;
+}
+
+.banner-contianer p.banner-warning {
+  color: #B45309;
+}
+
+/* ====== style for warning banner ======== */
+
+/* ======== banner ========== */
