@@ -1,11 +1,21 @@
+import './style.css'
 import Badge from "./components/Badge"
 import Banner from "./components/Banner/index"
-
+import Menu from "./components/Menu"
 
 function App() {
 
   return (
     <>
+      <Menu onOpen={() => console.log("Opened/closed")}>
+        <Menu.Button>Menu</Menu.Button>
+        <Menu.Dropdown>
+          <Menu.Item>Home</Menu.Item>
+          <Menu.Item>About</Menu.Item>
+          <Menu.Item>Contact</Menu.Item>
+          <Menu.Item>Blog</Menu.Item>
+        </Menu.Dropdown>
+      </Menu>
       <Badge variant='square' color='red'>Badge</Badge>
       <Badge variant='pill' color='yellow'>Badge</Badge>
       <Badge className='red' color='green'>Badge</Badge>
